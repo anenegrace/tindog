@@ -1,0 +1,309 @@
+body{
+    font-family: "montserrat", sans-serif;
+    text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-weight: 900;
+}
+h1, .card-text, .card-price {
+   font-size: 2.5rem;
+        line-height:1.5;
+
+}
+.container-fluid{
+    padding: 7% 15% ;
+
+}
+
+.colored-section{
+    background-color: #ff4268;
+    color: #ffff;
+}
+/* navbar */
+.navbar{
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+     font-family: "ubuntu",sans-serif;
+     font-size:2.5rem ;
+     font-weight: 700;
+}
+
+.nav-item{
+    padding: 0.18px;
+
+}
+
+
+.nav-link{
+    font-size:1.2rem;
+    font-weight:300 ;
+}
+
+/* title-section / */
+
+.title-section .container-fluid{
+    padding: 3% 15% 7%;
+    text-align: left;
+
+
+}
+.title-section .title-image{
+    width: 28%;
+    position: absolute;
+    transform:rotate(24deg)
+
+}
+/* download button */
+.dowmload-btn{
+  margin:5% 3% 5% 0 ;
+}
+
+/* feature section*/
+.features{
+position: relative;
+}
+.icon{
+    color: #ef8172;
+    margin: 1rem;
+}
+.icon:hover{
+    color: #ff4268;
+}
+.feature-box{
+    padding: 5%;
+}
+.white-section{
+    background-color: white;
+
+}
+.feature-title{
+    font-size: 1.5rem;
+}
+
+
+/* meduim screen media query 991px */
+@media screen and (max-width:61.938rem)
+ {
+    .title-section .title-image {
+    position: static;
+    transform: rotate(0deg);
+    width:70%
+    }
+   .title-section .title-heading{
+    text-align: center;
+
+   }
+
+   .title-section .dowmload-btn{
+    margin-bottom: 10% ;
+   }
+
+   .card-section .card:hover{
+    transform: scale(1.1, 1);
+   }
+
+
+}
+
+/* medium screen at 612px */
+@media screen and (max-width:38.6875rem) {
+  
+    .testimonial-section .testimonial-image{
+        width: 15%;
+    }
+
+    .press .container-fluid{
+        padding: 0 ;
+    }
+}
+/* medium screen at 560px */
+@media screen and (max-width:35rem) {
+ h2,.testimonial-section .testimonial-text{
+        line-height: 1.6;
+        font-size: 2rem;
+    }
+
+    .card-section{
+        padding: 50px;
+    }
+
+    .end-section h1 {
+        font-size: 2rem;
+    }
+    
+    
+}
+
+/* meduim screen media query 380px */
+@media screen and (max-width:23.75rem){
+   .title-heading{
+    font-size: 2rem;
+   }
+}
+
+/* screen 329px */
+@media screen and (max-width:20.5625rem) {
+.foot p{
+    font-size: 20px;
+
+}
+h2, .testimonial-section .testimonial-text {
+    line-height: 1.5;
+    font-size: 1.4rem;
+   
+
+}
+    
+}
+
+/* screen 280px */
+@media screen and ( max-width:17.5) {
+    .card-section{
+        padding: 15px;
+    }
+    
+}
+
+.testimonial-section{
+    background-color: #ef8172;
+    color: white;
+}
+.testimonial-text{
+    line-height: 1.5;
+    font-size: 3rem;
+
+}
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px 20px 20px auto;
+}
+
+/* logo section */
+
+
+.logo-image{
+    padding-bottom: 3%;
+}
+.logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+/* card section */
+
+.card-section{
+    padding: 100px;
+}
+.card-section .card-column{
+    padding: 3% 2%;
+    margin-bottom: 50px;
+}
+.card-section .card-body{
+    display: flex;
+    flex-direction: column;
+}
+.card-section .card .d-grid{
+    margin-top: auto;
+
+}
+.card-section .card{
+    transform: scale(1, 1);
+    transition: all 0.4s ease;
+    transform-origin: top;
+
+}
+.card-section .card:hover{
+    transform: scale(1.1, 1.1);
+   
+    /* color:white; */
+
+}
+
+/* end-section of page */
+
+.end-section{
+    padding: 10px;
+    background-color:#ff4268;
+    text-align: center;
+    color:azure;
+}
+
+.download-button{
+    margin:5% 5% 5% 0;
+}
+
+.foot{
+    height: 50px;
+    font-size: 1.5rem;
+    color: darkgrey;
+    padding: 30px;
+   
+}
+.foot .icons i {
+    color: black;
+    margin: 10px 5px 10px;
+
+}
+
+.foot p{
+    padding-bottom: 50px;
+}
+
+/* media query for screen 456px */
+@media screen and (max-width:28.5rem) {
+ .card-text{
+    font-size: 2.1rem;
+ }
+ .card-section{
+    padding: 50px;
+}
+
+
+
+}
+/* screen of 433px */
+@media screen and (max-width:27.0625rem){
+    .logo-image .logo{
+        margin: 10px 10px 20px;
+    }
+}
+/* at screen 412px */
+@media screen and (max-width:25.75rem) {
+    .card-text{
+        font-size: 1.5rem;
+        line-height: 1.5;
+    }
+.card-section{
+    padding: 40px;
+}
+
+.end-section h1{
+    font-size: 1.5rem;
+}
+    
+}
+
+    
+   
+  
+
+  
+
+
+
+
+    
+         
+        
+        
+    
+    
+
+
+
+
+
+
